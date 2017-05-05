@@ -1,10 +1,14 @@
 # flexbox-mixin-stylus
 
-### A stylus library containing functions for generating flexbox prefixes.
+### A stylus library containing functions for generating flexbox prefixes also created custom browser compatible mixin on CSS3 properties.
 
 ## Usage
 
-Just place the **flexbox.styl** file into your project, then import it in your stylus file with `@import 'flexbox'`  Each function tries to accept as many official values (according to the Flexbox standard), but does require some changes.
+Just place the styl_includes  **styl_includes** folder into your project, then import it in your stylus file with `@import 'styl_includes/mixin/common-styl-library.styl'`  Each function tries to accept as many official values (according to the Flexbox standard), but does require some changes.
+Its have mainly two files 
+1. flexbox-mixin.styl ( contains flex-box functions )
+2. custom-mixin.styl ( contains custom created mixin )
+3. common-styl-library.styl ( imports above two files in one file )
 
 ## Browser Support
 
